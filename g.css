@@ -1,0 +1,129 @@
+* {
+  background-color: black;
+}
+.glo {
+  margin-top: 15%;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 200px;
+}
+.g {
+  color: blue;
+  animation-name: one;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+  animation-delay: 2s;
+}
+@keyframes one {
+  0% {
+    transform: translateY(-420px);
+  }
+  50% {
+    color: lightblue;
+  }
+  100% {
+    transform: translateY(20px);
+  }
+}
+.o {
+  color: red;
+  animation-name: two;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+  animation-delay: 4s;
+}
+@keyframes two {
+  0% {
+    transform: translateY(-420px);
+  }
+  50% {
+    color: lightpink;
+  }
+  100% {
+    transform: translateY(20px);
+  }
+}
+.oo {
+  color: yellow;
+  animation-name: three;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+  animation-delay: 6s;
+}
+@keyframes three {
+  0% {
+    transform: translateY(-420px);
+  }
+  50% {
+    color: lightyellow;
+  }
+  100% {
+    transform: translateY(20px);
+  }
+}
+.gg {
+  color: blue;
+  animation-name: four;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+  animation-delay: 8s;
+}
+@keyframes four {
+  0% {
+    transform: translateY(-500px);
+  }
+  50% {
+    color: lightblue;
+  }
+  100% {
+    transform: translateY(20px);
+  }
+}
+.l {
+  color: lightgreen;
+  animation-name: five;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+  animation-delay: 10s;
+}
+@keyframes five {
+  0% {
+    transform: translateY(-420px);
+  }
+  50% {
+    color: green;
+  }
+  100% {
+    transform: translateY(20px);
+  }
+}
+.e {
+  color: red;
+  animation-name: six;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+  animation-delay: 12s;
+}
+@keyframes six {
+  0% {
+    transform: translateY(-420px);
+  }
+  50% {
+    color: lightpink;
+  }
+  100% {
+    transform: translateY(20px);
+  }
+}
